@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+h2 { 
+  color: White;
+ position: absolute; 
+ top: 300px; 
+ right: 500px;
+ font-size: 50px;
+}
+h3 { 
+  color: White;
+ position: absolute; 
+ top: 400px; 
+ right: 550px;
+ font-size: 17px;
+}
+
+.search { 
+ position: absolute; 
+ top:470px;
+ right: 700px;
+ 
+ color: white;
+}
+
+.btn {
+
+  right: 200px;
+  height:20ch;
+  padding: 10px 190px;
+  
+
+}
+.hover1 {
+  position: absolute; 
+ top: 600px; 
+ right: 950px;
+ font-size: 17px;
+ color :black;
+ background:white; 
+}
+.hover2 {
+  position: absolute; 
+ top: 600px; 
+ right: 600px;
+ font-size: 17px;
+ color :black;
+ background:white;
+
+}
+
+.car{
+  padding: 100px;
+
+}
+
+.deck{
+  width:70%;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px;
+
+}
+.row{
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px;
+}
+.fig3{
+  top: 10px;
+  right: 900px;
+
+}
